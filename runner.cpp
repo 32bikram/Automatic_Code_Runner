@@ -40,7 +40,7 @@ int main(int argcount, char* arg[]){
     }
 
     else if(extension == "py"){
-        exe_cmd = "python " + filename;
+        exe_cmd = "python3 " + filename;
     }
 
     else if(extension == "c"){
